@@ -110,14 +110,15 @@ html {
 
 .shop {
     float: right;
+    position: absolute;
     background-color: #ccc;
     color: #fff;
     padding: 9px;
     border-radius: 10px;
     font-weight: bolder;
-    top: 0;
+    top: 0px;
     margin: 0 5px;
-    position: relative;
+    
     
 }
 
@@ -149,14 +150,59 @@ i {
  }
 
  header {
-    font-size: 5em;
-    border-bottom: 3px solid #000;
+    font-size: 7em;
+    width: 100%;
+    position: relative;
+
+
  }
 
+ /*main-navigation and search bar */
+
+
+.main-nav {
+    clear: both;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.main-nav a {
+    text-decoration: none;
+    
+}
+
+/* Posters in a grid */
+
+.gallery {
+    float: right;
+    display: inline-block;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    font-color: #fff;
+}
 
 
 
 
+
+
+
+
+/* bottom navigation */
+.pages {
+    clear: both;
+    float: left;
+
+}
+
+/* bottom section of page */
+
+.about {
+    clear: both;
+}
 
 
 
