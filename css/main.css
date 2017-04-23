@@ -96,8 +96,62 @@ textarea {
    ========================================================================== */
 
 
+html {
+    box-sizing: border-box;
 
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+
+} 
+
+/* Shopping cart */
+
+.shop {
+    float: right;
+    background-color: #ccc;
+    color: #fff;
+    padding: 9px;
+    border-radius: 10px;
+    font-weight: bolder;
+    top: 0;
+    margin: 0 5px;
+    position: relative;
+    
+}
+
+.shop button {
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.shop a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.shop a:hover {
+    color: red;
+
+}
+
+i {
+    color: #808080;
+}
+
+/* Swissted giant */
+ h1 {
+    font-family: helvetica, arial, sans-serif;
+ }
+
+ header {
+    font-size: 5em;
+    border-bottom: 3px solid #000;
+ }
 
 
 
