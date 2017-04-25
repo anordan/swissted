@@ -152,18 +152,16 @@ html {
  h1 {
     font-family: helvetica, arial, sans-serif;
     top: 0;
+    font-size: 15.5em;
+    padding: 0px 20px 20px 0px;
+    margin: 0px 0px 10px 0px;
  }
 
  header {
-    position: relative;
-    font-size: 7em;
+    display: inline-block;
     height: 3.6em;
     width: 100%;
-    padding: 0px 20px 5px 20px;
     top: 0;
-    margin: 0 auto;
-    display: inline-block;
-
 
  }
 
@@ -176,9 +174,8 @@ html {
     border-bottom: 3px solid #000;
     font-family: helvetica, arial, sans-serif;
     font-size: 2.5em;
-    margin: 0px;
+    margin: 20px 0px 0px 0px;
     padding: 5px 10px;
-    display: inline-block;
 
 
 }
@@ -206,22 +203,21 @@ html {
     height: 20px;
     border-right: 2px solid #000;
     padding: 0px 15px;
+    display: inline-block;
 
 }
 
 .main-nav li:last-child {
     border-right: none;
 }
-
 .search {
+    position: absolute;
+    right: 0;
     font-size: 20px;
     border-radius: 10px;
-    float: right;
     padding: 0px 6px;
-    position: relative;
     width: 50px;
-
-
+    margin: 50px;
 }
 
 .search i {
@@ -235,12 +231,11 @@ html {
 /* Posters in a grid */
 
 .gallery {
-    float: right;
+    float: left;
     display: inline-block;
+    padding: 10px 10px;
+    margin-left: 0px;
     position: relative;
-    padding: 15px;
-
-
 }
 
 img {
@@ -250,10 +245,11 @@ img {
 
 .text {
     position: absolute;
-    height: 90%;
+    height: 93%;
     opacity: 0;
     text-align: left;
-    width: 90%;
+    width: 91%;
+    text-decoration: none;
 
 
 }
@@ -263,6 +259,11 @@ img {
     background-color: #000;
 
 }
+
+h3, p a:hover {
+    text-decoration: none;
+}
+
 
 h3, p {
     color: #fff;
@@ -289,13 +290,9 @@ h3, p {
 .pages {
     position: relative;
     clear: both;
-    padding: 25px;
+    padding: 0px
     font-size: .9em;
-    margin: 0;
-
-
-    
-
+    margin: 0 auto;
 }
 
 .pages a {
@@ -310,8 +307,9 @@ h3, p {
 .pages li {
     list-style-type: none;
     float: left;
+    font-size: 1.4em;
     border: 1px solid #000;
-    padding: 5px 15px;
+    padding: 15px 25px;
 
 }
 /* bottom section of page */
@@ -319,8 +317,8 @@ h3, p {
 .about {
     clear: both;
     font-size: .8em;
-    padding: 1px 0;
-    margin: 0;
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
 
 }
 
@@ -333,6 +331,7 @@ h3, p {
     list-style-type: none;
     float: left;
     padding: 2px 10px;
+    margin: 0 auto;
 }
 
 .social {
@@ -354,9 +353,9 @@ footer {
     clear: both;
     font-size: .8em;
     text-align: left;
-    padding: 0;
+    padding: 0px 0px 60px 10px;
     line-height: 0;
-    margin: 0;
+    margin: 0px 0px 40px 0px;
 }
 
 footer p {
