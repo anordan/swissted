@@ -254,7 +254,7 @@ img {
 
 .text {
     position: absolute;
-    height: 93%;
+    height: 85%;
     opacity: 0;
     text-align: left;
     width: 91%;
@@ -285,11 +285,13 @@ h3, p {
 
 
 .print {
-    margin: 0 35px;
+    font-size: 1.2em;
+    margin: 30px 10px;
     background-color: #000;
     color: #fff;
     border: 3px solid #fff;
-    padding: 15px;
+    width: 90%;
+    height: 26%;
     text-transform: uppercase;
 }
 
