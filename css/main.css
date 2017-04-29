@@ -44,7 +44,7 @@ hr {
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
-    padding: 0;
+    padding: 0
 }
 
 /*
@@ -106,34 +106,33 @@ html {
 
 } 
 
-#wrapper {
-    width: 100%;
-
+body {
+    max-width: 800px;
+    border: 3px solid red;
 }
+
 
 /* Shopping cart */
 
     
 .shop {
-    position: absolute;
-    right: 0;
-    top: 0;
+    float: right;
     background-color: #ccc;
     color: #fff;
-    padding: 10px 10px;
-    border-radius: 10px;
-    margin: 0 5px;
-    max-height: 4em;
-    font-size: 1em;
-    width: 230px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin: 0 8px;
+    max-height: 3.5em;
+    font-size: 11px;
+    width: 180px;
 
 }
 
 .shop button {
     background-color: #000;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-weight: bolder;
 }
 
@@ -150,38 +149,39 @@ html {
 
 .shop i {
     color: #808080;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 /* Swissted giant */
  h1 {
-    font-family: helvetica, arial, sans-serif;
+    font-family: arial, sans-serif;
     top: 0;
-    font-size: 16.2em;
+    font-size: 190px;
     padding: 0px 20px 20px 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 5px 10px 0px;
+ }
+
+ h1 a {
+    color: #000;
+    text-decoration: none;
  }
 
  header {
     display: inline-block;
-    height: 3.6em;
+    height: 1em;
     top: 0;
-
  }
 
  /*main-navigation and search bar */
 
 
 .main-nav {
-    width: 100%;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
     font-family: helvetica, arial, sans-serif;
-    font-size: 2.5em;
-    margin: 20px 0px 0px 5px;
+    font-size: 1.5em;
+    margin: 15px 0px 0px 0px;
     padding: 5px 10px;
-
-
 }
 
 .main-nav ul {
@@ -194,12 +194,12 @@ html {
     text-decoration: none;
     color: #000;
     font-weight: bolder;
-    
 }
 
 .main-nav a:hover {
     color: red;
 }
+
 .main-nav li {
     list-style-type: none;
     float: left;
@@ -214,54 +214,45 @@ html {
 .main-nav li:last-child {
     border-right: none;
 }
-.search {
-    position: absolute;
-    right: 0;
+.search-bar {
+    float: right;
     font-size: 20px;
     border-radius: 10px;
     padding: 0px 0px;
-    margin: 50px;
+    margin: 20px;
 }
 
-.search i {
+.search-bar i {
     background-color: #808080;
     color: #fff;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    padding: 4px;
+    padding: 5px;
 }
 /* Posters in a grid */
 
 .gallery {
-    float: left;
-    display: inline-block;
-    padding: 15px 10px;
-    margin-left: 0px;
-    position: relative;
+    padding: 10px 3px;
+    display: inline;
     
 }
 
 img {
+    position: relative;
+    float: left;
     border-bottom: 3px solid #000;
-    padding-bottom: 20px;
-
-
-    
-
+    padding: 8px 4.8px;
+    max-width: 320px;
+    max-height: 220px;
 
 }
 
 .text {
     position: absolute;
-    height: 85%;
     opacity: 0;
-    text-align: left;
-    width: 91%;
-    text-decoration: none;
-
-
-
+    max-width: 150px;
+    max-height: 220px;
 }
 
 .text:hover {
@@ -270,28 +261,25 @@ img {
 
 }
 
-}
-
 h3, p a:hover {
     text-decoration: none;
-
 }
 
 
 h3, p {
     color: #fff;
-    padding: 5px;
+    padding: 2px;
 }
 
 
 .print {
-    font-size: 1.2em;
-    margin: 30px 10px;
+    font-size: 1em;
+    margin: 4px 8px;
     background-color: #000;
     color: #fff;
     border: 3px solid #fff;
-    width: 90%;
-    height: 26%;
+    width: 50%;
+    height: 20%;
     text-transform: uppercase;
 }
 
@@ -306,7 +294,7 @@ h3, p {
     position: relative;
     left: 0;
     clear: both;
-    padding: 0px
+    padding: 0px;
     font-size: .9em;
     margin: 0 auto;
 }
